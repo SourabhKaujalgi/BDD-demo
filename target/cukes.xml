@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="46.851385">
+<testcase classname="Search and place order for Vegitable" name="Search for iterms and validate results" time="12.073883">
+<system-out><![CDATA[Given User is on Greencart Landing Page.....................................passed
+When User Searched for "Brocolli - 1 Kg" Vagitables.........................passed
+Then "Brocoli" should be displayed..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for Vegitable" name="Search for iterms and then move to checkout page" time="16.552487">
+<system-out><![CDATA[Given User is on Greencart Landing Page.....................................passed
+When User Searched for Brocolli - 1 Kg Vagitable............................passed
+Then added items to cart....................................................passed
+And User proceed to checkout page for purchase..............................passed
+Then Brocolli - 1 Kg should be displayed in check out page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for Vegitable" name="Search for iterms and then move to checkout page 2" time="18.225015">
+<system-out><![CDATA[Given User is on Greencart Landing Page.....................................passed
+When User Searched for Brocolli - 1 Kg Vagitable............................passed
+Then added items to cart....................................................passed
+And User proceed to checkout page for purchase..............................passed
+Then Brocolli - 1 Kg should be displayed in check out page..................passed
+]]></system-out>
+</testcase>
+</testsuite>
