@@ -20,7 +20,7 @@ public class BDDsteps {
 	@When("^User login into application with \"([^\"]*)\" and password \"([^\"]*)\"$")
 	public void user_login_into_application_with_and_password(String arg1, String arg2) throws Throwable {
 	    Assert.assertEquals(false, true);
-	    
+	    System.out.println("Added Step");
 	}
 
 	
@@ -28,6 +28,7 @@ public class BDDsteps {
 	public void user_is_on_NetBanking_landing_page() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    System.out.println("This is given 2");
+	    System.out.println("Added Step");
 	}
 
 	@When("^User sign up following details$")

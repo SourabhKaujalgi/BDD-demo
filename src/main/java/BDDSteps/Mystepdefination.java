@@ -95,7 +95,7 @@ public class Mystepdefination extends Base{
 	    @Then("^(.+) should be displayed in check out page$")
 	    public void should_be_displayed_in_check_out_page(String name) throws Throwable {
 	    	driver.findElement(By.xpath("//p[@class='product-name']")).getText().contains(name);
-	        
+	        System.out.println("Completed BDD demo executuon");
 	    }
 	
 
